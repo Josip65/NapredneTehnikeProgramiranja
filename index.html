@@ -10,7 +10,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 </head>
+<style>
+    #html5_banner {
+        width:100%; 
+        margin-bottom:-4px;
+    }
+    nav {
+        background-color: #333;
+        margin: 0;
+        overflow: hidden;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        /* This allow us to arrange list items in a row, without using float */
+        display: inline-block;
+        list-style-type: none;
+    }
+
+    /* Create a style for the items */
+    nav > ul > li > a {
+        color: white;
+        background-color:#333;
+        display: block;
+        line-height: 2em;
+        padding: 0.5em 0.5em;
+        text-decoration: none;
+    }
+</style>
 <body>
-<p>Josip Jerković</p>
+<header>
+  <img src="images/html5_banner.png" alt="html5 banner" id="html5_banner"/>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">Početna stranica</a></li>
+        <li><a href="#">Novosti</a></li>
+        <li><a href="#">Kontakt</a></li>
+        <li><a href="#">O nama</a></li>
+        <li><a href="#">Galerija</a></li>
+    </ul>
+</nav>
 </body>
 </html>
