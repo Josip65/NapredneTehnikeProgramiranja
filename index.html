@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 </head>
 <style>
-    body {
-        margin: 0;
-    }
+   
     #html5_banner {
         width:100%; 
         margin-bottom:-4px;
@@ -42,6 +40,18 @@
         padding: 0.5em 0.5em;
         text-decoration: none;
     }
+  
+    .clanak {
+        display:inline-block;
+        float:left;
+       
+    }
+    .clanak a {
+        text-decoration:none;}
+    .clanak_figure {
+        display: inline-block;
+        float:left;
+        }
 </style>
 <body>
 <header>
@@ -49,26 +59,60 @@
 </header>
 <nav>
     <ul>
-        <li><a href="#">Početna stranica</a></li>
-        <li><a href="#">Novosti</a></li>
+        <li><a href="index.html">Početna stranica</a></li>
+        <li><a href="novosti.html">Novosti</a></li>
         <li><a href="#">Kontakt</a></li>
         <li><a href="#">O nama</a></li>
         <li><a href="#">Galerija</a></li>
     </ul>
 </nav>
 <main>
-  <h1>Ovo je naslov</h1>
-  <h3>Ovo je podnaslov</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut       labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </p>
-    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-    </p>
-    <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-    </p>
-<figure style="display:inline-block;">
-  <img src="images/smile.jpeg" alt="smile" >
-   <figcaption style="text-align:center;">Slika 1. Smajlić</figcaption>
-</figure>
+<h1>Novosti</h1>
+   <article>
+       <figure class="clanak_figure">
+            <a href="https://www.24sata.hr/news/treslo-se-nebo-i-zemlja-ovo-je-najveca-vojna-vjezba-ikad-594913">
+                <img src="images/clanak1.jpeg" alt="clanak1"width="200px" height="200px" >
+            </a>
+       </figure>
+       <div class="clanak">
+            <a href="https://www.24sata.hr/news/treslo-se-nebo-i-zemlja-ovo-je-najveca-vojna-vjezba-ikad-594913">
+                <h1>Vojna vježba</h1> 
+            </a>
+            <p>Na vojnom poligonu Rt Kamenjak kod Premanture blizu Pule, u subotu je započela najveća vojna vježba od Hrvatske samostalnosti. Neprekidno će se održavati 72 sata <a href="https://www.24sata.hr/news/treslo-se-nebo-i-zemlja-ovo-je-najveca-vojna-vjezba-ikad-594913">more...</a></p>
+            <p  style="font-style: italic;">28. svibnja 2018.</p>
+       <div>  
+   </article>
+    <div style="clear:both;"> </div><hr>
+   <article>
+       <figure class="clanak_figure">
+            <a href="https://www.24sata.hr/sport/dalic-nismo-zaboravili-igrati-rebic-moze-biti-sjajan-u-spici-594899">
+                <img src="images/clanak2.jpeg" alt="clanak1"width="200px" height="200px" >
+            </a>
+       </figure>
+       <div class="clanak">
+            <a href="https://www.24sata.hr/sport/dalic-nismo-zaboravili-igrati-rebic-moze-biti-sjajan-u-spici-594899">
+                <h1>Vatreni-Engleska</h1> 
+            </a>
+            <p>Hrvatska je pred praznom Rujevicom remizirala s Engleskom 0-0 u drugom kolu Lige nacija, a unatoč izjednačenom rezultatu, tijek utakmice protekao je promašenim engleskim zicerima pa su Vatreni još i dobro prošli <a href="https://www.24sata.hr/sport/dalic-nismo-zaboravili-igrati-rebic-moze-biti-sjajan-u-spici-594899">more...</a></p>
+            <p  style="font-style: italic;">22. svibnja 2018.</p>
+       <div>  
+   </article>
+   <div style="clear:both;"> </div><hr>
+   <article>
+       <figure class="clanak_figure">
+            <a href="https://www.24sata.hr/tech/facebook-hakeri-su-ukrali-podatke-30-milijuna-korisnika-594876">
+                <img src="images/clanak3.jpeg" alt="clanak1"width="200px" height="200px" >
+            </a>
+       </figure>
+       <div class="clanak">
+            <a href="https://www.24sata.hr/tech/facebook-hakeri-su-ukrali-podatke-30-milijuna-korisnika-594876">
+                <h1>Facebok Breach</h1> 
+            </a>
+            <p>U hakerskom napadu koji se dogodio prije dva tjedna, ugroženo je oko 50 milijuna korisničkih računa. U petak je Facebook objavio više detalja o napadu, ali i omogućio da provjerite jeste li i vi bili na meti hakera<a href="https://www.24sata.hr/tech/facebook-hakeri-su-ukrali-podatke-30-milijuna-korisnika-594876">more...</a></p>
+            <p  style="font-style: italic;">15. svibnja 2018.</p>
+       <div>  
+   </article>
+    <div style="clear:both;"> </div><hr>
 </main>
 <footer>
   <p>
