@@ -9,6 +9,7 @@
   <meta name="author" content="Josip Jerković">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <style>
     main {
@@ -50,6 +51,9 @@
         border:1px solid black; 
         padding:10px;
     }
+    figure img {
+        cursor: pointer;
+    }
 </style>
 <body>
 <header>
@@ -65,16 +69,38 @@
     </ul>
 </nav>
 <main>
-    <h1>Vijesti</h1>
-    <figure>
-      <img src="images/clanak1.jpeg" alt="smile" width="250px" height="200px" >
-       <figcaption style="text-align:center;">Slika 1. Grupna slika</figcaption>
-    </figure>
-    <figure>
-      <img src="images/clanak2.jpeg" alt="smile" width="250px" height="200px" >
-       <figcaption style="text-align:center;">Slika 2. Intoniranje himne</figcaption>
-    </figure><hr>
-    
+    <h1>Galerija</h1>
+    <div>
+        <figure>
+          <img src="images/clanak1.jpeg" alt="smile" width="250px" height="200px" onclick="window.open('images/clanak1.jpeg', '_blank');" >
+           <figcaption style="text-align:center;">Slika 1. Grupna slika</figcaption>
+        </figure>
+        <figure>
+          <img src="images/clanak2.jpeg" alt="smile" width="250px" height="200px" onclick="window.open('images/clanak2.jpeg', '_blank');">
+           <figcaption style="text-align:center;">Slika 2. Intoniranje himne</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure>
+           <img src="images/clanak3.jpeg" alt="smile" width="250px" height="200px" onclick="window.open('images/clanak3.jpeg', '_blank');">
+           <figcaption style="text-align:center;">Slika 3. Facebok</figcaption>
+        </figure>
+        <figure>
+            <img src="images/html5_banner.png" alt="smile" width="250px" height="200px" onclick="window.open('images/html5_banner.png', '_blank');">
+           <figcaption style="text-align:center;">Slika 4. Banner</figcaption>
+        </figure>
+    </div>
+    <div>
+        <figure>
+           <img src="images/maca.jpg" alt="smile" width="250px" height="200px" onclick="window.open('images/maca.jpg', '_blank');">
+           <figcaption style="text-align:center;">Slika 5. Tigar</figcaption>
+        </figure>
+        <figure>
+            <img src="images/lav.jpg" alt="smile" width="250px" height="200px" onclick="window.open('images/lav.jpg', '_blank');">
+           <figcaption style="text-align:center;">Slika 6. Lav</figcaption>
+        </figure>
+    </div>
+    <hr>
     <h1>Hrvatske snage</h1>
     <h3>Hrvatske snage u probojima na različitim frontovima</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
